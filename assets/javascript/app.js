@@ -33,7 +33,7 @@ $(document).ready(function(){
 					$(".container").prepend(gifDiv);
 				}
 
-		$(".gif").click(function(){
+		$(".gif").unbind().click(function(){
 			var state = $(this).attr("data-state")
 			
 			if(state==="still"){
