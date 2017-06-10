@@ -1,0 +1,76 @@
+body {
+	height: 100%;
+}
+
+h1 {
+	font-size: 42px;
+	font-family: 'Rammetto One', cursive;
+}
+
+p {
+	font-size: 16px;
+	font-family: 'Rammetto One', cursive;
+}
+
+.header {
+	margin: 0 auto;
+	background-color: steelblue;
+	text-align: center;
+	padding: 20px;
+}
+
+.search-buttons {
+	margin: 0 auto;
+	width: 500px;
+}
+
+.search-buttons button {
+	margin: 5px;
+	border: none;
+	background-color: black;
+	border-radius: 2px;
+	color: white;
+	padding: 4px;
+	font-family: 'Rammetto One', cursive;
+}
+
+.search-buttons button:hover {
+	background-color: steelblue;
+	color: black;
+}
+
+.search-query {
+	margin: 0 auto;
+	width: 275px;
+}
+
+.search-query input{
+	border: solid black 2px;
+	border-radius: 2px;
+}
+
+.search-query button {
+	margin: 5px;
+	border: none;
+	background-color: black;
+	border-radius: 2px;
+	color: white;
+	padding: 4px;
+	font-family: 'Rammetto One', cursive;
+}
+
+.search-query button:hover {
+	background-color: steelblue;
+	color: black;
+}
+
+.container {
+	min-width: 100%;
+}
+
+.item {
+	float: left;
+	margin: 2px;
+	border: solid black 1px;
+	border-radius: 2px;
+}
